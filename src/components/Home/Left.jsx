@@ -1,5 +1,5 @@
 import styles from   './Left.module.css'
-import BackgroundImage from '../../images/main.png'
+import Image from '../../images/main.png'
 const Left = ()=>{
     return(
         <> 
@@ -10,7 +10,7 @@ const Left = ()=>{
             <div className={styles.down}>
                 <p>Discover new things on SuperApp</p>
             </div>
-            <img src={BackgroundImage}/>
+            <img src={Image}/>
         </>
     )
 }
