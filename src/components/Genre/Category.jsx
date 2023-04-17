@@ -10,7 +10,7 @@ const Category = ()=>{
     const navigate = useNavigate()
     const handleSignUp = ()=>{
         window.localStorage.setItem("genres", JSON.stringify([...categories]));
-        navigate("/browse");
+        navigate("/prebrowse");
     }
     return (
         <div className={styles.body}>

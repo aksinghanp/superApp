@@ -1,0 +1,53 @@
+.infoContainer {
+  width: 619px;
+  height: 494.24px;
+  min-height: 40vh;
+    background: #5746EA;
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .profileImage {
+    max-height: 32vh;
+    max-width: 10vw;
+    position: relative;
+    top: 2vh;
+  }
+  .profileImage img{
+    height: 32vh;
+    width: 10vw;
+  }
+  
+  .infoDetails {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .infoName {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .infoMail {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .infoUsername {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  .chip {
+    background-color: #9f94ff;
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  
