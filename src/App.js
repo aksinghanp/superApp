@@ -2,6 +2,7 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home'
 import Genre from './pages/Genre'
 import Prebrowse from './pages/PreBrowse'
+import Browse from './pages/Browse'
 import React from 'react'
 const App=()=> {
 
@@ -11,6 +12,7 @@ const App=()=> {
         <Route path='/' element={<Home/>}/>
         <Route path="/genre" element={<Genre/>}/>
         <Route path="/prebrowse" element={<Prebrowse/>}/>
+        <Route path="/browse" element={<Browse/>}/>
     </Routes>
     </>
   )
