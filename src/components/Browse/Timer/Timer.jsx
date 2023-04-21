@@ -67,21 +67,21 @@ const Timer = ()=>{
                 <div style={{color:"white",display:"flex", fontSize:"13px", justifyContent:"space-evenly"}}>
                     <div style={{textAlign:"center", padding:"6px"}}>
                         <p>Hours</p>
-                        <img style={{width:"20px",height:"20px"}} onClick={increaseHour}   src={up}/>
+                        <img alt=""style={{width:"20px",height:"20px"}} onClick={increaseHour}   src={up}/>
                         <p>{hours}</p>
-                        <img style={{width:"20px",height:"20px"}} onClick={decreaseHour}  src={down}/>
+                        <img alt=""style={{width:"20px",height:"20px"}} onClick={decreaseHour}  src={down}/>
                     </div>
                     <div style={{textAlign:"center", padding:"6px"}}>
                         <p>Minutes</p>
-                        <img style={{width:"20px",height:"20px"}} onClick={increaseMinute}  src={up}/>
+                        <img alt=""style={{width:"20px",height:"20px"}} onClick={increaseMinute}  src={up}/>
                         <p>{minutes}</p>
-                        <img style={{width:"20px",height:"20px"}} onClick={decreaseMinute}  src={down}/>
+                        <img alt=""style={{width:"20px",height:"20px"}} onClick={decreaseMinute}  src={down}/>
                     </div>
                    <div style={{textAlign:"center", padding:"6px"}}>
                         <p>Seconds</p>
-                        <img style={{width:"20px",height:"20px"}} onClick={increaseSecond}  src={up}/>
+                        <img alt=""style={{width:"20px",height:"20px"}} onClick={increaseSecond}  src={up}/>
                         <p>{seconds}</p>
-                        <img style={{width:"20px",height:"20px"}} onClick={decreaseSecond}  src={down}/>
+                        <img alt=""style={{width:"20px",height:"20px"}} onClick={decreaseSecond}  src={down}/>
                     </div>
                 </div>
                 <div onClick={()=>setPlaying((prev)=>!prev)}  style={{background:"#FF6A6A", borderRadius:"12px", color:"white", textAlign:"center"}}>

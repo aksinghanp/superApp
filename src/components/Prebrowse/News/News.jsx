@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import styles from "./News.module.css"
-const apiKey = process.env.REACT_APP_API_KEY
+const apiKey = process.env.apiKEY
 
 const News = ()=>{
     const [news, setNews] = useState('')
@@ -8,13 +8,14 @@ const News = ()=>{
     const [time, setTime] = useState("")
     console.log(news)
     useEffect(()=>{
-        const fetchNews = async()=>{
-            await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`)  //data extract
-                 .then(async(data)=>await data.json())   //data json format
-                 .then((result)=>setNews(result.articles[1]))   //utilization
-         }
-         fetchNews();
-     },[])
+      const fetchNews = async()=>{
+          await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`)  //data extract
+               .then(async(data)=>await data.json())   //data json format
+               .then((result)=>setNews(result.articles[0]))   //utilization
+       }
+       fetchNews();
+   },[])
+
 
 useEffect(() => {
   const date = new Date();
@@ -41,7 +42,7 @@ useEffect(() => {
     },[setDate]);
     return (
     <div className={styles.card}>
-      <img src={news.urlToImage} className={styles.image} />
+      <img alt=""src={news.urlToImage} className={styles.image} />
       <div className={styles.description}>
         {news.description}
       </div>

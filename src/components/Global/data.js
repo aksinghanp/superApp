@@ -12,42 +12,42 @@ export const genres = [
     {
         id:"Action",
         color:"#FF5209",
-        image:<img style={{width:"160px", height:"120px"}}  src={action}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={action}/>
     },
     {
         id:"Drama",
         color:"#D7A4FF",
-        image:<img style={{width:"160px", height:"120px"}}  src={drama}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={drama}/>
     },{
         id:"Fantasy",
         color:" #FF4ADE",
-        image:<img style={{width:"160px", height:"120px"}}  src={fantasy}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={fantasy}/>
     },
     {
         id:"Fiction",
         color:"#6CD061",
-        image:<img style={{width:"160px", height:"120px"}}  src={fiction}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={fiction}/>
     },
     {
         id:"Horror",
         color:"#7358FF",
-        image:<img style={{width:"160px", height:"120px"}}  src={horror}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={horror}/>
     },
     {
         id:"Music",
         color:"#E61E32",
-        image:<img style={{width:"160px", height:"120px"}}  src={music}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={music}/>
     },{
         id:"Romance",
         color:"#11B800",
-        image:<img style={{width:"160px", height:"120px"}}  src={romance}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={romance}/>
     },{
         id:"Thriller",
         color:"#84C2FF",
-        image:<img style={{width:"160px", height:"120px"}}  src={thriller}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={thriller}/>
     },{
         id:"Western",
         color:"#912500",
-        image:<img style={{width:"160px", height:"120px"}}  src={western}/>
+        image:<img alt=""style={{width:"160px", height:"120px"}}  src={western}/>
     }
 ];

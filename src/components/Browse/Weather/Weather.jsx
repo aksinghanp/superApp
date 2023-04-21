@@ -44,7 +44,7 @@ const Weather = ()=>{
       </div>
       <div>
           {weather ?<div style={{display:"flex", color:"white", alignItems:"center", justifyContent:"space-evenly"}}> <div>
-              <img src={weather.current.condition.icon} style={{width:"30px",height:"30px"}}/>
+              <img alt="" src={weather.current.condition.icon} style={{width:"30px",height:"30px"}}/>
               <p>{weather.current.condition.text}</p>
           </div>
           <div>

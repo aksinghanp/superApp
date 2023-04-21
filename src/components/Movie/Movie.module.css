@@ -6,3 +6,28 @@
     margin-left: 2vw;
     color: #878787;
 }
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .list-container {
+    display: flex;
+    overflow: hidden;
+    margin-left: 2vw;
+  }
+  
+  .list-item {
+    width: 20vw;
+    margin: 2vw;
+  }
+  
+  .list-item img {
+    object-fit: cover;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 12px;
+  }
+  

@@ -1,5 +1,5 @@
-import Profile from '../../../images/profileBig.png'
-import Chips from "./Chip"
+import Profile from '../../../images/info.png'
+import Select from "./Select"
 import styles from './Info.module.css';
 
 const Info = () => {
@@ -15,7 +15,7 @@ const Info = () => {
         <p className={styles.infoName}>{myinfo.name}</p>
         <p className={styles.infoMail}>{myinfo.email}</p>
         <p className={styles.infoUsername}>{myinfo.username}</p>
-        <Chips categories={genre} color={'#9F94FF'} />
+        <Select categories={genre} color={'#9F94FF'} />
       </div>
     </div>
   );

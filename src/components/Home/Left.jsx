@@ -10,7 +10,7 @@ const Left = ()=>{
             <div className={styles.down}>
                 <p>Discover new things on SuperApp</p>
             </div>
-            <img src={Image}/>
+            <img alt=""src={Image}/>
         </>
     )
 }

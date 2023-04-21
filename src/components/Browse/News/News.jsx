@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import styles from "./News.module.css"
-const apiKey = process.env.REACT_APP_API_KEY
+const apiKey =  process.env.apiKEY
 
 const News = ()=>{
     const [news, setNews] = useState('')
@@ -41,7 +41,7 @@ useEffect(() => {
     },[setDate]);
     return (
     <div className={styles.card}>
-      <img src={news.urlToImage} className={styles.image} />
+      <img src={news.urlToImage} className={styles.image} alt="" />
       <div className={styles.description}>
         {news.description}
       </div>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+const api=process.env.key;
 const Weather = ()=>{
     const [date, setDate] = useState("")
     const [time, setTime] = useState("")
@@ -7,7 +7,7 @@ const Weather = ()=>{
     // console.log(weather)
     useEffect(()=>{
         const fetchWeather = async()=>{
-            await fetch(`http://api.weatherapi.com/v1/current.json?key=f51a28068a1d4b11a5d133813231304&q=India&aqi=no`)
+            await fetch(`http://api.weatherapi.com/v1/current.json?key=${api}&q=India&aqi=no`)
                 .then(async(data)=>await data.json())
                 .then((data)=>setWeather(data)) 
         }
@@ -44,7 +44,7 @@ const Weather = ()=>{
       </div>
       <div>
           {weather ?<div style={{width: "603px",display:"flex", color:"white", alignItems:"center", justifyContent:"space-evenly"}}> <div>
-              <img src={weather.current.condition.icon} style={{width:"30px",height:"30px"}}/>
+              <img alt=""src={weather.current.condition.icon} style={{width:"30px",height:"30px"}}/>
               <p>{weather.current.condition.text}</p>
           </div>
           <div>

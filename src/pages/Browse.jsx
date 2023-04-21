@@ -25,7 +25,18 @@ const Browse = ()=>{
           <News/>
       </div>
       </div>
-      <button style={{position:"absolute",bottom:"2vh",right:"3vw",background:"green",border:"none",color:"white",padding:"6px",borderRadius:"12px"}} onClick={handleClick}>Next Page</button> 
+      <button style={{
+      position:"absolute",
+      bottom:"4vh",
+      right:"3vw",
+      background:"green",
+      border:"none",
+      color:"white",
+      padding:"6px",
+      borderRadius:"12px",
+      width: "8vw",
+      height: "6vh"
+      }} onClick={handleClick}>Browse</button> 
       </div>
   )
 }

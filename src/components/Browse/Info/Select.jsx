@@ -1,4 +1,4 @@
-const Chips = ({color,categories})=>{
+const Select = ({color,categories})=>{
     return(
         <div style={{width:"20vw"}}>
        {categories.map((category)=>(
@@ -7,4 +7,4 @@ const Chips = ({color,categories})=>{
         </div>
     )
 }
-export default Chips;
+export default Select;
