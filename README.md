@@ -1,4 +1,4 @@
-# stone-paper-scissors
+# SuperApp
 [Link](https://monumental-lolly-711384.netlify.app/)
 
 
